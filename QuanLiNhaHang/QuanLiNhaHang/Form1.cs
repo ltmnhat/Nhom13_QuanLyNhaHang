@@ -36,6 +36,9 @@ namespace QuanLiNhaHang
             if (KiemTraDangNhap(tenDangNhap, matKhau))
             {
                 MessageBox.Show("Đăng nhập thành công!");
+                frmQuanLi frmquanli = new frmQuanLi();
+                frmquanli.Show();
+                this.Hide();
             }
             else
             {

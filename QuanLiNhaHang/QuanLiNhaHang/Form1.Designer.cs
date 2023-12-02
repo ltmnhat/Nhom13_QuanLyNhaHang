@@ -51,9 +51,11 @@ namespace QuanLiNhaHang
             this.gbInfoLogin.Controls.Add(this.txtUsername);
             this.gbInfoLogin.Controls.Add(this.lbPass);
             this.gbInfoLogin.Controls.Add(this.lbUser);
-            this.gbInfoLogin.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbInfoLogin.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbInfoLogin.Location = new System.Drawing.Point(308, 124);
+            this.gbInfoLogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gbInfoLogin.Name = "gbInfoLogin";
+            this.gbInfoLogin.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gbInfoLogin.Size = new System.Drawing.Size(341, 242);
             this.gbInfoLogin.TabIndex = 0;
             this.gbInfoLogin.TabStop = false;
@@ -62,8 +64,9 @@ namespace QuanLiNhaHang
             // btnThoat
             // 
             this.btnThoat.Location = new System.Drawing.Point(191, 175);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(92, 47);
+            this.btnThoat.Size = new System.Drawing.Size(92, 48);
             this.btnThoat.TabIndex = 5;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -72,6 +75,7 @@ namespace QuanLiNhaHang
             // btnDangNhap
             // 
             this.btnDangNhap.Location = new System.Drawing.Point(57, 176);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(104, 46);
             this.btnDangNhap.TabIndex = 4;
@@ -83,6 +87,7 @@ namespace QuanLiNhaHang
             // 
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPassword.Location = new System.Drawing.Point(86, 109);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(197, 27);
@@ -92,6 +97,7 @@ namespace QuanLiNhaHang
             // 
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUsername.Location = new System.Drawing.Point(86, 58);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(197, 27);
             this.txtUsername.TabIndex = 2;
@@ -119,7 +125,8 @@ namespace QuanLiNhaHang
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(32, 124);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 124);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(245, 242);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -129,24 +136,25 @@ namespace QuanLiNhaHang
             // lbIntroDangNhap
             // 
             this.lbIntroDangNhap.AutoSize = true;
-            this.lbIntroDangNhap.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbIntroDangNhap.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbIntroDangNhap.ForeColor = System.Drawing.Color.Black;
-            this.lbIntroDangNhap.Location = new System.Drawing.Point(104, 34);
+            this.lbIntroDangNhap.Location = new System.Drawing.Point(51, 44);
             this.lbIntroDangNhap.Name = "lbIntroDangNhap";
-            this.lbIntroDangNhap.Size = new System.Drawing.Size(626, 38);
+            this.lbIntroDangNhap.Size = new System.Drawing.Size(672, 35);
             this.lbIntroDangNhap.TabIndex = 2;
-            this.lbIntroDangNhap.Text = "Đăng Nhập Hệ Thống Quản Lí Nhà Hàng";
+            this.lbIntroDangNhap.Text = "ĐĂNG NHẬP HỆ THỐNG QUẢN LÍ NHÀ HÀNG";
             // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(753, 422);
+            this.ClientSize = new System.Drawing.Size(752, 422);
             this.Controls.Add(this.lbIntroDangNhap);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.gbInfoLogin);
             this.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
