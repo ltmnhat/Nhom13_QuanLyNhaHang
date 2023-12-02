@@ -1,0 +1,11 @@
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\bin\Debug\QuanLiNhaHang.exe.config
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\bin\Debug\QuanLiNhaHang.exe
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\bin\Debug\QuanLiNhaHang.pdb
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.csproj.AssemblyReference.cache
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.Properties.Resources.resources
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.csproj.GenerateResource.cache
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.csproj.CoreCompileInputs.cache
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.exe
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.pdb
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.frmDangNhap.resources
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.frm2.resources
