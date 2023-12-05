@@ -38,7 +38,9 @@ namespace QuanLiNhaHang
 
         private void kháchHàngToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            frmqlKhachHang frmqlkhachhang = new frmqlKhachHang();
+            frmqlkhachhang.Show();
+            frmqlkhachhang.MdiParent = this;
         }
 
         private void bànĂnToolStripMenuItem1_Click(object sender, EventArgs e)

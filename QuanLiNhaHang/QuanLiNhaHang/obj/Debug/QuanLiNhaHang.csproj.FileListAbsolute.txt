@@ -11,3 +11,4 @@ D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHa
 D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.frmQuanLi.resources
 D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.frmTrangChu.resources
 D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.frmqlNhanVien.resources
+D:\HUFI_2021-2025\HK5\CN.Net\Nhom13_DeTaiQuanLiNhaHang\QuanLiNhaHang\QuanLiNhaHang\obj\Debug\QuanLiNhaHang.frmqlKhachHang.resources
