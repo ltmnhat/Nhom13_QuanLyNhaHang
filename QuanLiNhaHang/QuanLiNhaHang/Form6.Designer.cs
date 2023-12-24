@@ -63,7 +63,7 @@ namespace QuanLiNhaHang
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 286);
+            this.dataGridView1.Size = new System.Drawing.Size(251, 286);
             this.dataGridView1.TabIndex = 0;
             // 
             // groupBox1
@@ -131,7 +131,7 @@ namespace QuanLiNhaHang
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(11, 92);
+            this.label2.Location = new System.Drawing.Point(4, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 19);
             this.label2.TabIndex = 2;

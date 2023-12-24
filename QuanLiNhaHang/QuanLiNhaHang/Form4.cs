@@ -50,17 +50,45 @@ namespace QuanLiNhaHang
         }
         private void btnThemNV_Click(object sender, EventArgs e)
         {
-
+            DataRow newrow = ds_nhanvien.Tables[0].NewRow();
+            newrow["MaNhanVien"] = txtMaNhanVien.Text;
+            newrow["Ten"] = txtTenNhanVien.Text;
+            newrow["ChucVu"] = txtChucVu.Text;
+            newrow["Luong"] = txtLuongNhanVien.Text;
+            ds_nhanvien.Tables[0].Rows.Add(newrow);
+            SqlCommandBuilder cB = new SqlCommandBuilder(da_nhanvien);
+            da_nhanvien.Update(ds_nhanvien, "NhanVien");
+            txtMaNhanVien.Clear();
+            txtTenNhanVien.Clear();
+            txtChucVu.Clear();
+            txtLuongNhanVien.Clear();
         }
 
         private void btnXoaNV_Click(object sender, EventArgs e)
         {
-
+            DataRow dr = ds_nhanvien.Tables[0].Rows.Find(txtMaNhanVien.Text);
+            if (dr != null)
+            {
+                dr.Delete();
+            }
+            //cap nhap trong database
+            SqlCommandBuilder cB = new SqlCommandBuilder(da_nhanvien);
+            //cap nhat dataset
+            da_nhanvien.Update(ds_nhanvien, "NhanVien");
         }
 
         private void btnSuaNV_Click(object sender, EventArgs e)
         {
+            DataRow dr = ds_nhanvien.Tables[0].Rows.Find(txtMaNhanVien.Text);
+            if (dr != null)
+            {
+                dr["Ten"] = txtTenNhanVien.Text;
+                dr["ChucVu"] = txtChucVu.Text;
+                dr["Luong"] = txtLuongNhanVien.Text;
 
+            }
+            SqlCommandBuilder cB = new SqlCommandBuilder(da_nhanvien);
+            da_nhanvien.Update(ds_nhanvien, "NhanVien");
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
