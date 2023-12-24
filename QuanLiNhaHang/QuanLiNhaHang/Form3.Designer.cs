@@ -80,7 +80,7 @@ namespace QuanLiNhaHang
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(25, 63);
+            this.label3.Location = new System.Drawing.Point(25, 71);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(347, 27);
             this.label3.TabIndex = 4;
@@ -94,7 +94,7 @@ namespace QuanLiNhaHang
             this.gbSVTH.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbSVTH.Location = new System.Drawing.Point(504, 131);
             this.gbSVTH.Name = "gbSVTH";
-            this.gbSVTH.Size = new System.Drawing.Size(326, 101);
+            this.gbSVTH.Size = new System.Drawing.Size(406, 101);
             this.gbSVTH.TabIndex = 5;
             this.gbSVTH.TabStop = false;
             this.gbSVTH.Text = "Sinh viên thực hiện";
@@ -126,7 +126,7 @@ namespace QuanLiNhaHang
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(860, 450);
+            this.ClientSize = new System.Drawing.Size(1002, 450);
             this.Controls.Add(this.gbGVHD);
             this.Controls.Add(this.gbSVTH);
             this.Controls.Add(this.pictureBox1);

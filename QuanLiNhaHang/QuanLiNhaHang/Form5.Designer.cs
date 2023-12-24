@@ -44,9 +44,9 @@ namespace QuanLiNhaHang
             this.gbDSKH = new System.Windows.Forms.GroupBox();
             this.dgvKhachHang = new System.Windows.Forms.DataGridView();
             this.btnThemKH = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
             this.gbThongTinKH.SuspendLayout();
             this.gbDSKH.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
@@ -202,6 +202,16 @@ namespace QuanLiNhaHang
             this.btnThemKH.UseVisualStyleBackColor = true;
             this.btnThemKH.Click += new System.EventHandler(this.btnThemKH_Click);
             // 
+            // btnThoat
+            // 
+            this.btnThoat.Location = new System.Drawing.Point(619, 287);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(84, 40);
+            this.btnThoat.TabIndex = 14;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
             // btnXoa
             // 
             this.btnXoa.Location = new System.Drawing.Point(281, 289);
@@ -222,16 +232,6 @@ namespace QuanLiNhaHang
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
-            // btnThoat
-            // 
-            this.btnThoat.Location = new System.Drawing.Point(619, 287);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(84, 40);
-            this.btnThoat.TabIndex = 14;
-            this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
-            // 
             // frmqlKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -239,7 +239,9 @@ namespace QuanLiNhaHang
             this.ClientSize = new System.Drawing.Size(1305, 683);
             this.Controls.Add(this.gbDSKH);
             this.Controls.Add(this.gbThongTinKH);
+            this.MinimizeBox = false;
             this.Name = "frmqlKhachHang";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Quản lý khách hàng";
             this.Load += new System.EventHandler(this.frmqlKhachHang_Load);
             this.gbThongTinKH.ResumeLayout(false);

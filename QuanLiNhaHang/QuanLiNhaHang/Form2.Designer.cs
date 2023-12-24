@@ -110,14 +110,14 @@ namespace QuanLiNhaHang
             // danhMụcMónĂnToolStripMenuItem1
             // 
             this.danhMụcMónĂnToolStripMenuItem1.Name = "danhMụcMónĂnToolStripMenuItem1";
-            this.danhMụcMónĂnToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.danhMụcMónĂnToolStripMenuItem1.Size = new System.Drawing.Size(213, 26);
             this.danhMụcMónĂnToolStripMenuItem1.Text = "Danh mục món ăn";
             this.danhMụcMónĂnToolStripMenuItem1.Click += new System.EventHandler(this.danhMụcMónĂnToolStripMenuItem1_Click);
             // 
             // mónĂnToolStripMenuItem1
             // 
             this.mónĂnToolStripMenuItem1.Name = "mónĂnToolStripMenuItem1";
-            this.mónĂnToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.mónĂnToolStripMenuItem1.Size = new System.Drawing.Size(213, 26);
             this.mónĂnToolStripMenuItem1.Text = "Món ăn";
             this.mónĂnToolStripMenuItem1.Click += new System.EventHandler(this.mónĂnToolStripMenuItem1_Click);
             // 
@@ -148,6 +148,7 @@ namespace QuanLiNhaHang
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lí nhà hàng";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.frmQuanLi_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

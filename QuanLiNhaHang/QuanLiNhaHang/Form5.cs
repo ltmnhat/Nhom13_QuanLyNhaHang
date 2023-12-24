@@ -67,7 +67,10 @@ namespace QuanLiNhaHang
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-
+            DialogResult r;
+            r = MessageBox.Show("Ban co muon thoat?", "Thoat", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1);
+            if (r == DialogResult.Yes)
+                Application.Exit();
         }
 
         private void frmqlKhachHang_Load(object sender, EventArgs e)
