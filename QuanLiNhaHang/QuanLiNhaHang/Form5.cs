@@ -52,17 +52,47 @@ namespace QuanLiNhaHang
         }
         private void btnThemKH_Click(object sender, EventArgs e)
         {
-
+            DataRow newrow = ds_khachhang.Tables[0].NewRow();
+            newrow["MaKhachHang"] = txtMaKH.Text;
+            newrow["Ten"] = txtTenKH.Text;
+            newrow["DienThoai"] = txtDienThoai.Text;
+            newrow["Email"] = txtEmail.Text;
+            newrow["DiaChi"] = txtDiaChi.Text;
+            ds_khachhang.Tables[0].Rows.Add(newrow);
+            SqlCommandBuilder cB = new SqlCommandBuilder(da_khachhang);
+            da_khachhang.Update(ds_khachhang, "KhachHang");
+            txtMaKH.Clear();
+            txtTenKH.Clear();
+            txtDienThoai.Clear();
+            txtEmail.Clear();
+            txtDiaChi.Clear();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-
+            DataRow dr = ds_khachhang.Tables[0].Rows.Find(txtMaKH.Text);
+            if (dr != null)
+            {
+                dr.Delete();
+            }
+            //cap nhap trong database
+            SqlCommandBuilder cB = new SqlCommandBuilder(da_khachhang);
+            //cap nhat dataset
+            da_khachhang.Update(ds_khachhang, "KhachHang");
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-
+            DataRow dr = ds_khachhang.Tables[0].Rows.Find(txtMaKH.Text);
+            if (dr != null)
+            {
+                dr["Ten"] = txtTenKH.Text;
+                dr["DienThoai"] = txtDienThoai.Text;
+                dr["Email"] = txtEmail.Text;
+                dr["DiaChi"] = txtDiaChi.Text;
+            }
+            SqlCommandBuilder cB = new SqlCommandBuilder(da_khachhang);
+            da_khachhang.Update(ds_khachhang, "KhachHang");
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
